@@ -1,0 +1,37 @@
+{
+    "model": "XGBoost Tuned",
+    "training_records": 7794,
+    "cv_folds": 5,
+    "cv_mae": 5.929,
+    "cv_rmse": 15.0631,
+    "cv_r2": 0.8737,
+    "best_hyperparameters": {
+        "subsample": 1.0,
+        "reg_lambda": 3,
+        "n_estimators": 500,
+        "min_child_weight": 3,
+        "max_depth": 6,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.8
+    },
+    "raw_input_columns": [
+        "Brand",
+        "Model",
+        "YOM",
+        "Engine (cc)",
+        "Gear",
+        "Fuel Type",
+        "Mileage(KM)",
+        "Town",
+        "Date",
+        "Leasing",
+        "Condition",
+        "AIR CONDITION",
+        "POWER STEERING",
+        "POWER MIRROR",
+        "POWER WINDOW"
+    ],
+    "trained_at_utc": "2026-10-11T13:30:25.908292+00:00",
+    "price_unit": "LKR lakhs",
+    "lkr_per_lakh": 100000
+}
